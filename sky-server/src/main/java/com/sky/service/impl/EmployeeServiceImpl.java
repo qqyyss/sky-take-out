@@ -72,7 +72,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         Employee employee = new Employee();
 
         //对象属性拷贝
-        BeanUtils.copyProperties(employee,employeeDTO);
+        BeanUtils.copyProperties(employeeDTO,employee);
 
         //设置账号状态，默认正常状态，1表示正常，0表示锁定
         employee.setStatus(StatusConstant.ENABLE);
