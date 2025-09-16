@@ -13,6 +13,11 @@ sky:
     access-key-id:
     bucket-name:
 
+
   redis:
     host: localhost
     post: 6379
+
+  wechat:
+    appid: wx51b5eeef7ba455b3
+    secret: 567eb9a5d613b0d3b7fdde44b47f79fa
