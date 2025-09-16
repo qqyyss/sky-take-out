@@ -7,6 +7,12 @@ sky:
     username: root
     password: 1234
 
+  alioss:
+    endpoint:
+    access-key-secret:
+    access-key-id:
+    bucket-name:
+
   redis:
     host: localhost
     post: 6379
